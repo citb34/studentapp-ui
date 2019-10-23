@@ -38,8 +38,8 @@
     <url>packagecloud+https://packagecloud.io/test-user/myrepo</url>
   </repository>
   <snapshotRepository>
-    <id>packagecloud-raghudevops34</id>
-    <url>packagecloud+https://packagecloud.io/test-user/myrepo</url>
+    <id>nexus</id>
+    <url>http://localhost:8081/repository/maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
   <dependencies>
