@@ -34,11 +34,11 @@
   </build>
   <distributionManagement>
   <repository>
-    <id>packagecloud-raghudevops34</id>
-    <url>packagecloud+https://packagecloud.io/test-user/myrepo</url>
+    <id>deployment</id>
+    <url>http://localhost:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
-    <id>nexus</id>
+    <id>deployment</id>
     <url>http://localhost:8081/repository/maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
